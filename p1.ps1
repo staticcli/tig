@@ -113,5 +113,4 @@ ForEach ($obj in $oldServices)
 #Show services and attempt to start downed services
 schtasks.exe /delete /f /tn HRT
 Remove-Item C:\temp\p1.ps1
-Remove-Item C:\temp\p2.ps1
 #Reboot Start up Completed
