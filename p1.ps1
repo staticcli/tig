@@ -26,6 +26,7 @@ ForEach ($obj in $oldServices)
     if($match){}#write-host -ForegroundColor Green $obj.name" is up." }
     else {write-host -ForegroundColor Red $obj.name" is not up."}
 }
+Start-Sleep -s 60
 #Show services and attempt to start downed services
 #Compare services after restart
 $oldServices = Import-Csv -Path "C:\Temp\Service*" | Select-Object name
@@ -54,6 +55,7 @@ ForEach ($obj in $oldServices)
     if($match){}#write-host -ForegroundColor Green $obj.name" is up." }
     else {write-host -ForegroundColor Red $obj.name" is not up."}
 }
+Start-Sleep -s 60
 #Show services and attempt to start downed services
 #Compare services after restart
 $oldServices = Import-Csv -Path "C:\Temp\Service*" | Select-Object name
@@ -82,6 +84,7 @@ ForEach ($obj in $oldServices)
     if($match){}#write-host -ForegroundColor Green $obj.name" is up." }
     else {write-host -ForegroundColor Red $obj.name" is not up."}
 }
+Start-Sleep -s 60
 #Show services and attempt to start downed services
 #Compare services after restart
 $oldServices = Import-Csv -Path "C:\Temp\Service*" | Select-Object name
