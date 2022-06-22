@@ -117,4 +117,5 @@ ForEach ($obj in $oldServices)
 schtasks.exe /delete /f /tn HRT
 schtasks.exe /delete /f /tn REB
 Remove-Item C:\temp\p1.ps1
+Remove-Item C:\temp\p2.ps1
 #Reboot Start up Completed
