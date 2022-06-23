@@ -120,4 +120,5 @@ Remove-Item C:\temp\p1.ps1
 Remove-Item C:\temp\p2.ps1
 Remove-Item C:\p2.ps1
 Remove-Item C:\Windows\System32\p2.ps1
+Clear-History -Count 5 -Newest
 #Reboot Start up Completed
